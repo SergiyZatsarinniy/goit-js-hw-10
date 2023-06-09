@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .loader {
+  font-size: 20px;
+} */
+
+body {
+  background-color: #ffae9c;
+}
+.breed-select {
+  max-width: 300px;
+}
+
+.error {
+  font-size: 20px;
+  font-weight: 700;
+  color: red;
+}
+.is-hidden {
+  opacity: 0;
+  /* visibility: hidden; */
+}
+.cat-info img {
+  display: inline-block;
+}
+.cat-info {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cat-titles {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.cat-description p {
+  margin-bottom: 50px;
+}
+
+.cat-description {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cat-temp {
+  font-weight: 600;
+}
