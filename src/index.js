@@ -2,7 +2,7 @@ import { fetchBreeds, fetchCatByBreed } from './js/cat-api.js';
 import './css/style.css';
 
 const API_KEY =
-  'live_qE21O52c52A37ctUcV6hliaEyBnz59hGiAFTOKXxN2VjhrYLa3zzbYTrw7v0eoiT';
+  'live_XeTlTyCSq1TV4BNVV5sQtp1HkTM0b77UWvJrrCJ47zNb8oPtLbzoQLC2HcvFMfiS';
 const BASE_URL = 'https://api.thecatapi.com/v1';
 
 const refs = {
