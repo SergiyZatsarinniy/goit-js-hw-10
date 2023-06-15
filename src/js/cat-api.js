@@ -3,34 +3,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SlimSelect from 'slim-select';
 import 'slim-select/dist/slimselect.css';
 
-// function fetchBreeds() {
-//   showLoader();
-
-//   return fetch('https://api.thecatapi.com/v1/breeds')
-//     .then(response => response.json())
-//     .then(data => {
-//       return data.map(breed => ({
-//         id: breed.id,
-//         name: breed.name,
-//       }));
-//     })
-//     .catch(onShowError());
-// }
-
-// function fetchCats() {}
-
-// function fetchCatByBreed(breedId) {
-//   fetch(`${BASE_URL}/images/search?breed_ids=${breedId}&api_key=${API_KEY}`)
-//     .then((response) => {
-
-//       return;
-//     }
-//       }
-
-// function onShowError() {
-//   Notify.failure('Error loading page...');
-// }
-
 Notify.init({
   width: '500px',
   fontSize: '25px',
